@@ -25,11 +25,11 @@ All software related items were tested on Linux (Ubuntu 18.04).
 
 ## Instructions
 
-/nodejs
+/nodejs:
 
 1. Install Node.JS (i.e. `sudo apt-get install nodejs`)
 
-2. Go to the directory where _hello_world.js_ is located
+2. Go to the directory (where _hello_world.js_ is located)
 
 3. Run `chmod +x ./hello.js`
 
