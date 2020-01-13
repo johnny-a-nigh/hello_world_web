@@ -19,4 +19,20 @@ All software related items were tested on Linux (Ubuntu 18.04).
 
 * Rails 6.0.0
 
-2. Node.JS v8.10.0
+/nodejs:
+
+1. Node.JS v8.10.0+
+
+## Instructions
+
+/nodejs
+
+1. Install Node.JS (i.e. `sudo apt-get install nodejs`)
+
+2. Go to the directory where _hello_world.js_ is located
+
+3. Run `chmod +x ./hello.js`
+
+4. Run the application (`./hello.js`)
+
+5. Open the following site in a browser: http://localhost:8002/
