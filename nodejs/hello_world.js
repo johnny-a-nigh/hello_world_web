@@ -1,10 +1,11 @@
 #!/usr/bin/env nodejs
 
-var http = require('http');
+const http = require('http');
+const port = 8002;
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('Hello, world from Node.js!\n');
-}).listen(8002, 'localhost');
+}).listen(port, 'localhost');
 
-console.log('Server running at http://localhost:8002/');
+console.log(`Server running at http://localhost:${port}/`);
